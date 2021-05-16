@@ -14,4 +14,4 @@ BoardMember.prototype.doCharity = () => "I like to help people.";
 
 BoardMember.prototype.releasePressStatement = () => "You will see great things from Scuber.";
 
-BoardMember.prototype.sayHi = () => `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`;
+BoardMember.prototype.sayHi = () => `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`;
